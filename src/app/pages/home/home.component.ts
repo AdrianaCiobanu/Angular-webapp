@@ -8,7 +8,7 @@ import { ApiService } from 'src/app/services/api.service';
 })
 export class HomeComponent implements OnInit {
 
-  message: any ;
+  message: any;
 
   constructor(private apiService: ApiService) { }
 
